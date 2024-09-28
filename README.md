@@ -11,6 +11,7 @@
 ``apply plugin: "com.google.gms.google-services"`` #android/app/build.gradle<br>
 ``android\app\build.gradle``#android namespace değiştirme <br>
 ``android\app\google-services.json`` #firebase consol hesabınızdan indiriniz<br>
+``//context.sendBroadcast(new Intent(Intent.ACTION_CLOSE_SYSTEM_DIALOGS));`` #Yoruma al. demo\node_modules\react-native-push-notification\android\src\main\java\com\dieam\reactnativepushnotification\modules\RNPushNotificationActions.java
 ### AndroidManifest.xml ile kanal için yetki ekleyin<br>
 ``<uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />``<br>
 ``<uses-permission android:name="android.permission.VIBRATE" />``<br>
