@@ -17,7 +17,7 @@
 ### projeyi gradle ile derleyin
 ``./gradlew clean`` #çözmedi<br>
 ``./gradlew assembleDebug`` #çözmedi<br>
-``./gradlew :app:dependencies``
+``./gradlew :app:dependencies``<br>
 ``./gradlew build --scan`` #komut tekrar çalıştırıldı ve uzun sürdü ama "yes" komutu verildi. çözüldü<br>
 ``npx react-native run-android --verbose`` #sorunsuz tamamlandı
  
