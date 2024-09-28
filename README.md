@@ -62,5 +62,5 @@ Cocoapodsu otomatik kurma!<br>
 ``bundle exec pod install`` <br>
 ### Ekran
 <img src="https://raw.githubusercontent.com/tulparstudyo/mobile-demo/refs/heads/main/assets/image/preview-ios-1.jpeg" width="200"> <img src="https://raw.githubusercontent.com/tulparstudyo/mobile-demo/refs/heads/main/assets/image/preview-ios-2.jpeg" width="200"> <img src="https://raw.githubusercontent.com/tulparstudyo/mobile-demo/refs/heads/main/assets/image/preview-ios-3.jpeg" width="200">
-https://raw.githubusercontent.com/tulparstudyo/mobile-demo/refs/heads/main/assets/image/preview-ios-1.jpeg
+
 
