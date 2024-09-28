@@ -1,5 +1,5 @@
 # Kurulum
-    npx @react-native-community/cli@latest init AwesomeProject
+    npx @react-native-community/cli@latest init demo
     npm i --save "firebase" "react" "react-native"  "react-native-safe-area-context"  "@react-navigation/native" "@react-navigation/native-stack" "react-native-screens" "react-native-webview" "react-native-push-notification" "@react-native-firebase/app" "@react-native-firebase/messaging" "@types/react-native-push-notification" "@react-native-community/push-notification-ios"
 ### Paketleri Güncelleme
     npm install
