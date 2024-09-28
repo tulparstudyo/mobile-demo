@@ -12,16 +12,16 @@
 ``classpath("com.google.gms:google-services:4.4.2")`` #android/build.gradle<br>
 ``apply plugin: "com.google.gms.google-services"`` #android/app/build.gradle<br>
 ``android\app\build.gradle``#android namespace değiştirme <br>
-``android\app\google-services.json`` firebase consol hesabınızdan indiriniz<br>
+``android\app\google-services.json`` #firebase consol hesabınızdan indiriniz<br>
 ### AndroidManifest.xml ile kanal için yetki ekleyin<br>
 ``<uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />``<br>
 ``<uses-permission android:name="android.permission.VIBRATE" />``<br>
 ### projeyi gradle ile derleyin
 ``./gradlew clean`` #çözmedi<br>
 ``./gradlew assembleDebug`` #çözmedi<br>
-``/gradlew :app:dependencies``
-``./gradlew build --scan`` yes komutu verildi. komut tekrar çalıştırıldı ve uzun sürdü ama çözüldü<br>
-``npx react-native build-android --verbose`` Çalıştı
+``./gradlew :app:dependencies``
+``./gradlew build --scan`` #komut tekrar çalıştırıldı ve uzun sürdü ama "yes" komutu verildi. çözüldü<br>
+``npx react-native build-android --verbose`` #sorunsuz tamamlandı
  
 npm start çalıştı :)<br>
 ### proje apk sı oluşturma
