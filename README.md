@@ -5,6 +5,30 @@
     npm install
     npm update
     npm i --legacy-peer-deps
+### Tulpar reposity klonla
+``git clone https://github.com/tulparstudyo/mobile-demo.git tulpar``<br>
+### App.tsx
+```
+/**
+ * Tulpar Studyo Wenbview App
+ * https://github.com/facebook/react-native
+ *
+ * @format
+ */
+
+import React from 'react';
+import TulparStarter from './tulpar/TulparStarter';
+
+function App(): React.JSX.Element {
+  return (
+    TulparStarter()
+  );
+}
+
+export default App;
+```
+
+
 # <img src="https://www.gstatic.com/devrel-devsite/prod/vdf5af65c45d9e2fdd493c581ff01cb1d11a21b4420a9fcc957400a26863da9d2/android/images/favicon.svg" alt="Android Icon" width="32" height="32"> Android
 ``android.enableJetifier=true`` #android/gradle.properties<br>
 ``classpath("com.google.gms:google-services:4.4.2")`` #android/build.gradle<br>
