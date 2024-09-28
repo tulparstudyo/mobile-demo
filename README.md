@@ -21,7 +21,7 @@
 ``./gradlew assembleDebug`` #çözmedi<br>
 ``./gradlew :app:dependencies``
 ``./gradlew build --scan`` #komut tekrar çalıştırıldı ve uzun sürdü ama "yes" komutu verildi. çözüldü<br>
-``npx react-native build-android --verbose`` #sorunsuz tamamlandı
+``npx react-native run-android --verbose`` #sorunsuz tamamlandı
  
 npm start çalıştı :)<br>
 ### proje apk sı oluşturma
