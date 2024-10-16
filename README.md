@@ -52,4 +52,15 @@ npx react-native build-android --mode=release
 ### Ekran 
 <img src="https://raw.githubusercontent.com/tulparstudyo/mobile-demo/refs/heads/main/assets/image/preview-android.jpeg" width="200"> <img src="https://raw.githubusercontent.com/tulparstudyo/mobile-demo/refs/heads/main/assets/image/preview-android-1.jpeg" width="200"> <img src="https://raw.githubusercontent.com/tulparstudyo/mobile-demo/refs/heads/main/assets/image/preview-android-2.jpeg" width="200">
 # <img src="https://developer.apple.com/favicon.ico" alt="Ios Icon" width="32" height="32"> Ios
+Cocoapodsu otomatik kurma!<br>
+``bundle install``<br>
+``org.reactjs.native.example`` #ios/lorem.xcodeproj/project.pbxproj içinde native exampleyi değiştir.<br>
+``use_frameworks!`` #ios/podfile'a yaz<br>
+``#import "Firebase.h"`` #Appdelagateye ekle<br>
+``GoogleService-Info.plist`` #dosyasını projeye dahil etmek için xcode açın<br>
+``Singing&Capabilities`` #Xcode'den Push Notification ve Background Modesi ekle, Team kısmından apple developer seç<br>
+``bundle exec pod install`` <br>
+### Ekran
+<img src="https://raw.githubusercontent.com/tulparstudyo/mobile-demo/refs/heads/main/assets/image/preview-ios-1.jpeg" width="200"> <img src="https://raw.githubusercontent.com/tulparstudyo/mobile-demo/refs/heads/main/assets/image/preview-ios-2.jpeg" width="200"> <img src="https://raw.githubusercontent.com/tulparstudyo/mobile-demo/refs/heads/main/assets/image/preview-ios-3.jpeg" width="200">
+
 
