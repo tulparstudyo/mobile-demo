@@ -4,8 +4,7 @@ import TulparViewConfig from './TulparViewConfig';
 import TulparConfig from '../TulparConfig';
 import { BackHandler } from 'react-native';
 const TulparWebView = (config: TulparViewConfig) => {  
-  const webViewRef = useRef(null);
-  const [currentUrl, setCurrentUrl] = useState(TulparConfig.webViewUrl);
+  const webViewRef = useRef<WebView>(null);
   const handleBackPress = () => {
     //console.log(webViewRef.current);
     if (webViewRef.current) {
